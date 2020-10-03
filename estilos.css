@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+}
+.title h1 {
+  align-self: center;
+}
+main{
+  padding-left: 20px;
+}
+.Automovil,.Motocicleta,.Motocarro{
+  padding: 0 20px;
+  border: 2px solid black;
+  background: #ffa621;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.sensorial{
+  background-color: #9c9c9c;
+  padding-left: 10px;
+}
+.sensorial{
+  display: block;
+}
+
+.sensorial:target{
+  display: none;
+}
+
+.title2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+h6{
+  font-size: 17px
+}
+.sub-title1{
+  font-size: 25px;
+  font-weight: 600;
+}
+.sub-title{
+  font-weight: 500;
+}
